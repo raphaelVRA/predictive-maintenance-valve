@@ -55,23 +55,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/01_exploration.ipynb
 ```
 
-### Entraînement du Modèle
-```bash
-python main.py train
-```
-
-### Prédiction
-```bash
-python main.py predict
-```
-
-## Docker
-
-Construction et exécution avec Docker :
-```bash
-docker build -t valve-prediction .
-docker run valve-prediction
-```
 
 ## Structure des Données
 
@@ -94,7 +77,4 @@ docker run valve-prediction
    - Analyse des caractéristiques importantes
 
 ## Auteur
-[Votre Nom]
-
-## Licence
-MIT 
+VRAIN Raphaël
